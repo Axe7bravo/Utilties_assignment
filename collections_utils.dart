@@ -1,4 +1,4 @@
-/*void main() {
+void main() {
   // Lists
   List<int> numbers = createList([1, 2, 3, 4, 5]);
   addToList(numbers, 6);
@@ -29,7 +29,7 @@
 
   print("Iterating over map:");
   iterateMap(ages);
-}*/
+}
 
 // Functions for collections using <T> or <K, V> to make them more flexible and reusable with different data types.
 
