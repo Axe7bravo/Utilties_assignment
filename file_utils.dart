@@ -22,3 +22,8 @@ void writeFile(String filePath, String content) {
   File file = File(filePath);
   file.writeAsStringSync(content);
 }
+
+void appendToFile(String filePath, String content) {
+  File file = File(filePath);
+  file.writeAsStringSync(content, mode: FileMode.append);
+}
