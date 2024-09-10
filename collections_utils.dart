@@ -31,7 +31,8 @@
   iterateMap(ages);
 }*/
 
-// Functions for collections
+// Functions for collections using <T> or <K, V> to make them more flexible and reusable with different data types.
+
 List<T> createList<T>(List<T> elements) => elements;
 
 void addToList<T>(List<T> list, T element) => list.add(element);
